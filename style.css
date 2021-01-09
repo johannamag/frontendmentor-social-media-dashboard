@@ -259,3 +259,59 @@ a {
 a:hover {
   color: var(--instagram);
 }
+
+@media screen and (max-width: 912px) {
+  .number {
+    font-size: 28px;
+  }
+  .followers {
+    font-size: 12px;
+    letter-spacing: 4px;
+  }
+  .title-small {
+    font-size: 12px;
+  }
+  .numbers-small {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 834px) {
+  .sum {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 582px) {
+  .header {
+    flex-direction: column;
+  }
+  .header-left {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .header-right {
+    width: 100%;
+    padding-top: 20px;
+    border-top: 1px solid var(--toggle-light);
+  }
+  .number {
+    font-size: 34px;
+  }
+  .followers {
+    font-size: 14px;
+    letter-spacing: 6px;
+  }
+  .title-small {
+    font-size: 14px;
+  }
+  .numbers-small {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .sum {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
