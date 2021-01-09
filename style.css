@@ -209,3 +209,39 @@ input:checked + .slider:before {
 .red {
   color: var(--red);
 }
+
+.overview-title {
+  font-size: 24px;
+  margin-top: 30px;
+}
+
+.top-small,
+.bottom-small {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.top-small {
+  margin-bottom: 15px;
+}
+
+.title-small {
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.numbers-small {
+  font-weight: 700;
+  color: var(--light-blue-text);
+  font-size: 28px;
+}
+
+.stats {
+  display: flex;
+  align-items: center;
+}
+
+.arrow-small {
+  margin-right: 5px;
+}
