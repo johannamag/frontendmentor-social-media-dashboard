@@ -32,7 +32,7 @@ body {
   font-weight: 400;
 }
 
-main {
+.main {
   width: 100%;
   min-height: 100vh;
   background: hsl(0, 0%, 100%);
@@ -42,6 +42,36 @@ main {
     hsl(225, 100%, 98%) 65%
   );
   color: var(--light-gray-text);
+}
+
+body.dark .main {
+  background: hsl(230, 17%, 14%);
+  background: linear-gradient(
+    0deg,
+    hsl(230, 17%, 14%) 65%,
+    hsl(232, 19%, 15%) 65%
+  );
+  color: var(--dark-blue-text);
+}
+
+body.dark .title {
+  color: var(--dark-white-text);
+}
+
+body.dark .slider:before {
+  background-color: hsl(232, 19%, 15%);
+}
+
+body.dark .card {
+  background-color: var(--dark-card-bg);
+}
+
+body.dark .number {
+  color: var(--dark-white-text);
+}
+
+body.dark .numbers-small {
+  color: var(--dark-white-text);
 }
 
 .container {
