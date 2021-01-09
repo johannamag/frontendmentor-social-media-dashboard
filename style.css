@@ -16,3 +16,14 @@
   --light-gray-text: hsl(228, 12%, 44%);
   --light-blue-text: hsl(230, 17%, 14%);
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
