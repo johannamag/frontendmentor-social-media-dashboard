@@ -245,3 +245,17 @@ input:checked + .slider:before {
 .arrow-small {
   margin-right: 5px;
 }
+
+.attribution {
+  margin-top: 40px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: var(--light-gray-text);
+}
+
+a:hover {
+  color: var(--instagram);
+}
